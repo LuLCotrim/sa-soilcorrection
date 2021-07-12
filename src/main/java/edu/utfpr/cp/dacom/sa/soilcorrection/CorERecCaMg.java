@@ -28,7 +28,7 @@ public class CorERecCaMg {
 	public double calcPartAtualCalcio(){
 		
 		double r6 = qtdCa+qtdMg+qtdK+qtdHAl;
-		double res = qtdCa/r6*100;
+		double res = (qtdCa/r6)*100;
 		
 		return res;
 	}

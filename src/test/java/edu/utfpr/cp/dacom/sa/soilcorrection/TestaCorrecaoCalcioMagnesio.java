@@ -8,6 +8,10 @@ public class TestaCorrecaoCalcioMagnesio{
     @Test
     public void calcIdealTest(){
         CorERecCaMg c = new CorERecCaMg();
-        c.set
+        c.setQtdCa(5.76);
+        c.setQtdMg(1.63);
+        c.setQtdK(0.15);
+        c.setQtdHAl(5.35);
+        assertEquals(44.7, c.calcPartAtualCalcio(),0.1);
     }
 }
