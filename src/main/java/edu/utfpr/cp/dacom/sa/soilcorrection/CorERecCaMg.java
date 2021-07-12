@@ -179,7 +179,7 @@ public class CorERecCaMg {
 				n27 = b24*0.18;
 				break;
 			default:
-				al40 = 0;		
+				n27 = 0;		
 		}
 		double o102;
 		switch(fonteCorretivo){
@@ -207,14 +207,14 @@ public class CorERecCaMg {
 		double r6 = qtdCa+qtdMg+qtdK+qtdHAl;
 		double i105 = (n27/2.42) * am40 / 1000;
 		double g102;
-		if(g101>0.01){
-			g102 = teorCaO;
+		if(teorCO>0.01){
+			g102 = teorCO;
 		}else{
 			g102 = o102;
 		}
 		double e48 = calcPartAtualCalcio();
 		double p91 = (((qtdCa*partDesejada/ e48 -qtdCa)-i105)) / ((g102*0.01783)+i105);
-		double p88;
+		double p88 = 0;
 		if(p91>0.001){
 			p88 = p91;
 		}else if(p91<13){
