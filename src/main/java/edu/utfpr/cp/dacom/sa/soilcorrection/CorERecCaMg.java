@@ -231,4 +231,156 @@ public class CorERecCaMg {
 
 		return res;
 	}
+
+	public double getPartDesejada() {
+		return partDesejada;
+	}
+
+	public void setPartDesejada(double partDesejada) {
+		this.partDesejada = partDesejada;
+	}
+
+	public int getFonteCorretivo() {
+		return fonteCorretivo;
+	}
+
+	public void setFonteCorretivo(int fonteCorretivo) {
+		this.fonteCorretivo = fonteCorretivo;
+	}
+
+	public double getPrnt() {
+		return prnt;
+	}
+
+	public void setPrnt(double prnt) {
+		this.prnt = prnt;
+	}
+
+	public double getTeorCO() {
+		return teorCO;
+	}
+
+	public void setTeorCO(double teorCO) {
+		this.teorCO = teorCO;
+	}
+
+	public double getValorCD() {
+		return valorCD;
+	}
+
+	public void setValorCD(double valorCD) {
+		this.valorCD = valorCD;
+	}
+
+	public double getValorCaCa() {
+		return valorCaCa;
+	}
+
+	public void setValorCaCa(double valorCaCa) {
+		this.valorCaCa = valorCaCa;
+	}
+
+	public double getValorCaCo() {
+		return valorCaCo;
+	}
+
+	public void setValorCaCo(double valorCaCo) {
+		this.valorCaCo = valorCaCo;
+	}
+
+	public double getValorGA() {
+		return valorGA;
+	}
+
+	public void setValorGA(double valorGA) {
+		this.valorGA = valorGA;
+	}
+
+	public double getValorHC() {
+		return valorHC;
+	}
+
+	public void setValorHC(double valorHC) {
+		this.valorHC = valorHC;
+	}
+
+	public double getValorCM() {
+		return valorCM;
+	}
+
+	public void setValorCM(double valorCM) {
+		this.valorCM = valorCM;
+	}
+
+	public double getQtdHAl() {
+		return qtdHAl;
+	}
+
+	public void setQtdHAl(double qtdHAl) {
+		this.qtdHAl = qtdHAl;
+	}
+
+	public double getQtdCa() {
+		return qtdCa;
+	}
+
+	public void setQtdCa(double qtdCa) {
+		this.qtdCa = qtdCa;
+	}
+
+	public double getQtdMg() {
+		return qtdMg;
+	}
+
+	public void setQtdMg(double qtdMg) {
+		this.qtdMg = qtdMg;
+	}
+
+	public double getQtdK() {
+		return qtdK;
+	}
+
+	public void setQtdK(double qtdK) {
+		this.qtdK = qtdK;
+	}
+
+	public int getTexSolo() {
+		return texSolo;
+	}
+
+	public void setTexSolo(int texSolo) {
+		this.texSolo = texSolo;
+	}
+
+	public int getFonteP() {
+		return fonteP;
+	}
+
+	public void setFonteP(int fonteP) {
+		this.fonteP = fonteP;
+	}
+
+	public double getTeorP() {
+		return teorP;
+	}
+
+	public void setTeorP(double teorP) {
+		this.teorP = teorP;
+	}
+
+	public double getQtdP() {
+		return qtdP;
+	}
+
+	public void setQtdP(double qtdP) {
+		this.qtdP = qtdP;
+	}
+
+	public double getEfcP() {
+		return efcP;
+	}
+
+	public void setEfcP(double efcP) {
+		this.efcP = efcP;
+	}
 }

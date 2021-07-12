@@ -8,6 +8,6 @@ public class TestaCorrecaoCalcioMagnesio{
     @Test
     public void calcIdealTest(){
         CorERecCaMg c = new CorERecCaMg();
-        
+        c.set
     }
 }
